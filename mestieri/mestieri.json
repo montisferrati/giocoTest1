@@ -168,7 +168,7 @@
     {
       "id": "torre_nobiliare",
       "nome": "Torre di famiglia",
-      "descrizione": "Torre o casa nobiliare, di proprietà ma che necessita continua manutenzione",
+      "descrizione": "Torre, di proprietà ma che necessita continua manutenzione",
       "tipoAccesso": "proprieta",
       "costoAcquisto": 0,
       "costoAffittoGiorno": 0,

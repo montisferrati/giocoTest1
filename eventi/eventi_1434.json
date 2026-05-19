@@ -64,7 +64,7 @@
       "id": "inizio_estate",
       "tipo": "stagionale",
       "priorita": "bassa",
-      "dataTrigger": "1434-06-01",
+      "dataTrigger": "1434-06-21",
       "dataTriggerFine": null,
       "titolo": "L'estate è arrivata",
       "messaggio": "Il sole scalda le campagne del Monferrato. I contadini lavorano dall'alba al tramonto. Il raccolto si annuncia abbondante.",
@@ -87,10 +87,36 @@
     },
 
     {
+      "id": "inizio_autunno",
+      "tipo": "stagionale",
+      "priorita": "bassa",
+      "dataTrigger": "1434-09-21",
+      "dataTriggerFine": null,
+      "titolo": "L'autunno scende sul Monferrato",
+      "messaggio": "Le foglie ingialliscono sulle colline del Monferrato. È tempo di raccolto, di vendemmia e di fare provviste per l'inverno che verrà. I mercati si animano di prodotti della terra.",
+      "luoghiInteressati": [],
+      "luoghiInteressatiTutti": true,
+      "effetti": {
+        "cambioStendardo": null,
+        "cambioTerreno": {
+          "textureId": "TL_Grass",
+          "note": "Terreno autunnale"
+        },
+        "bonusGuadagnoPercentuale": {
+          "archetipi": ["contadino", "contadina"],
+          "percentuale": 40
+        }
+      },
+      "mostraBando": false,
+      "bandoId": null,
+      "ripetibile": false
+    },
+
+    {
       "id": "inizio_inverno",
       "tipo": "stagionale",
       "priorita": "bassa",
-      "dataTrigger": "1434-12-01",
+      "dataTrigger": "1434-12-21",
       "dataTriggerFine": null,
       "titolo": "L'inverno stringe il Monferrato",
       "messaggio": "Le prime nevi imbiancano le colline. I mercati si riducono, le strade sono difficili. Chi ha fatto provviste starà al caldo.",
@@ -120,7 +146,7 @@
       "id": "inizio_primavera",
       "tipo": "stagionale",
       "priorita": "bassa",
-      "dataTrigger": "1435-03-01",
+      "dataTrigger": "1435-03-21",
       "dataTriggerFine": null,
       "titolo": "La primavera torna sul Monferrato",
       "messaggio": "Le nevi si sciolgono, i fiori tornano sulle colline. Nuovi mercati si aprono, i viaggiatori riprendono le loro rotte.",
