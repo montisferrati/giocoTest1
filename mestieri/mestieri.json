@@ -165,6 +165,22 @@
       },
       "giorniCostruzione": 30
     },
+	{
+      "id": "carrozza",
+      "nome": "Carrozza",
+      "descrizione": "Una vecchia carrozza adibita ad abitazione, parcheggiata ai margini del borgo. Tende colorate, erbe essiccate e simboli misteriosi decorano l'interno. Casa e bottega in uno.",
+      "tipoAccesso": "proprieta",
+      "costoAcquisto": 0,
+      "costoAffittoGiorno": 0,
+      "costoManutenzioneGiorno": 1,
+      "archetipiConsentiti": ["chiromante"],
+      "livelloComfort": 1,
+      "immagineStadi": {
+        "cantiere": null,
+        "meta": null,
+        "completa": "carrozza_completa"
+      }
+    },
     {
       "id": "torre_nobiliare",
       "nome": "Torre di famiglia",
