@@ -4,7 +4,7 @@
     "repoJson": "gioco",
     "note": "Eventi storici e casuali - Monferrato 1434"
   },
-  "updatedAt": "2026-05-11T12:00:00Z",
+  "updatedAt": "2026-05-24T12:00:00Z",
   "minAppVersion": 1,
 
   "eventi": [
@@ -81,7 +81,7 @@
           "percentuale": 30
         }
       },
-      "mostraBando": false,
+      "mostraBando": true,
       "bandoId": null,
       "ripetibile": false
     },
@@ -107,7 +107,7 @@
           "percentuale": 40
         }
       },
-      "mostraBando": false,
+      "mostraBando": true,
       "bandoId": null,
       "ripetibile": false
     },
@@ -159,7 +159,7 @@
           "note": "Terreno primaverile"
         }
       },
-      "mostraBando": false,
+      "mostraBando": true,
       "bandoId": null,
       "ripetibile": false
     },
@@ -212,7 +212,7 @@
           "durataGiorni": 1
         }
       },
-      "mostraBando": false,
+      "mostraBando": true,
       "bandoId": null,
       "ripetibile": true
     },

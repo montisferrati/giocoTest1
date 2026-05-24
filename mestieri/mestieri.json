@@ -4,7 +4,7 @@
     "repoJson": "gioco",
     "note": "Mestieri, guadagni e spese per luogo - Monferrato 1434"
   },
-  "updatedAt": "2026-05-11T12:00:00Z",
+  "updatedAt": "2026-05-24T12:00:00Z",
   "minAppVersion": 1,
 
   "modificatoriLuogo": {
@@ -251,6 +251,57 @@
       "archetipiConsentiti": ["tutti"],
       "effetto": "acquisto_reale",
       "note": "Meccanica di acquisto in-app"
+    },
+	{
+      "id": "matrimonio_vantaggioso",
+      "nome": "Cerca un matrimonio vantaggioso",
+      "descrizione": "Cerca un partito ricco tra le famiglie del borgo. Richiede tempo e reputazione.",
+      "avanzaGiorni": 30,
+      "archetipiConsentiti": ["nobile_decaduto", "nobile_decaduta"],
+      "effetto": "matrimonio",
+      "condizione": "non_sposato",
+      "guadagnoMin": 500,
+      "guadagnoMax": 1500,
+      "requisitoReputazione": 30
+    },
+    {
+      "id": "incarico_diplomatico",
+      "nome": "Richiedi incarico diplomatico",
+      "descrizione": "Offri i tuoi servigi alla corte del Marchese per una missione diplomatica.",
+      "avanzaGiorni": 15,
+      "archetipiConsentiti": ["nobile_decaduto", "nobile_decaduta"],
+      "effetto": "incarico",
+      "condizione": "giorni_attesa",
+      "giorniAttesa": 60,
+      "guadagnoMin": 300,
+      "guadagnoMax": 800,
+      "requisitoReputazione": 20
+    },
+    {
+      "id": "protezione_mercante",
+      "nome": "Offri protezione a un mercante",
+      "descrizione": "Un mercante cerca protezione per i suoi traffici. Il tuo nome nobile vale ancora qualcosa.",
+      "avanzaGiorni": 7,
+      "archetipiConsentiti": ["nobile_decaduto", "nobile_decaduta"],
+      "effetto": "protezione",
+      "condizione": "giorni_attesa",
+      "giorniAttesa": 30,
+      "guadagnoMin": 150,
+      "guadagnoMax": 400,
+      "requisitoReputazione": 10
+    },
+    {
+      "id": "vendita_beni",
+      "nome": "Vendi beni di famiglia",
+      "descrizione": "Vendi gioielli, arredi o cimeli di famiglia. Una perdita per l'orgoglio, un guadagno per il portafoglio.",
+      "avanzaGiorni": 1,
+      "archetipiConsentiti": ["nobile_decaduto", "nobile_decaduta"],
+      "effetto": "vendita_beni",
+      "condizione": "giorni_attesa",
+      "giorniAttesa": 90,
+      "guadagnoMin": 200,
+      "guadagnoMax": 600,
+      "requisitoReputazione": 0
     }
   ]
 }
