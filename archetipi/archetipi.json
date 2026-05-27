@@ -4,7 +4,7 @@
     "repoJson": "gioco",
     "note": "Archetipi personaggio - Monferrato 1434"
   },
-  "updatedAt": "2026-05-24T12:00:00Z",
+  "updatedAt": "2026-05-27T12:00:00Z",
   "minAppVersion": 1,
 
   "differenzaSesso": {
@@ -477,7 +477,7 @@
         "noteGuadagno": "Guadagno molto variabile. Picchi in periodi di incertezza politica o eventi storici. Rischio in periodi di persecuzione religiosa"
       },
       "abitazioneIniziale": {
-        "tipo": "proprieta",
+        "tipo": "uso",
         "descrizione": "Una vecchia carrozza adibita ad abitazione, parcheggiata ai margini del borgo. Tende colorate, erbe essiccate e simboli misteriosi decorano l'interno. Casa e bottega in uno.",
         "costoAffittoGiorno": 0,
         "costoManutenzioneGiorno": 1
