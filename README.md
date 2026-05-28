@@ -9,4 +9,4 @@ eventi/eventi_1434.json
 
 mestieri/mestieri.json
 
-27/05/2026
+28/05/2026
